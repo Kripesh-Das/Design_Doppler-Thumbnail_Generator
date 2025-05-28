@@ -1,0 +1,12 @@
+GEMINI_MODEL = "gemini-2.0-flash"
+
+THUMBNAIL_IMAGE_SIZE = "1536x1024"
+
+IMAGE_ROOT_DIR = "images"
+
+REFERENCE_IMAGES_DIR = (
+    f"{IMAGE_ROOT_DIR}/reference_images"
+)
+
+THUMBNAIL_ASSET_DIR = f"{IMAGE_ROOT_DIR}/assets"
+GENERATED_THUMBNAILS_DIR = f"{IMAGE_ROOT_DIR}/generated" 
