@@ -146,9 +146,9 @@ def scrape_channel(
     Returns:
         Dictionary with scraping results
     """
-    num_thumbnails = 5
+    num_thumbnails = 1
     # Number of videos to fetch per API request
-    batch_size = 25
+    batch_size = 10
     max_attempts = (
         3  # Maximum number of pagination attempts to avoid excessive API usage
     )
