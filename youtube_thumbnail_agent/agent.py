@@ -3,7 +3,7 @@ from google.adk.agents import Agent
 from .constants import GEMINI_MODEL
 from .subagents.thumbnail_scraper.agent import thumbnail_scraper_agent
 from .subagents.thumbnail_analyzer_agent import thumbnail_analyzer_agent
-from .subagents.thumbnail_prompt_generator.agent import prompt_generator
+from .subagents.prompt_generator.agent import prompt_generator
 from .subagents.generate_image_agent import generate_image_agent
 
 thumbnail_agent = Agent(
