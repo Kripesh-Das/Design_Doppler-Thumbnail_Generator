@@ -1,14 +1,3 @@
-import os 
-import os.path
-import re
-from typing import Dict, List, Optional
-
-import requests
-from dotenv import load_dotenv
-load_dotenv()
-
-from ....constants import IMAGE_ROOT_DIR, REFERENCE_IMAGES_DIR
-
 import os
 import os.path
 import re
