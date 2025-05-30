@@ -22,7 +22,61 @@
 - **Interactive Workflow**: Guides you step by step, collecting all necessary info and ensuring smooth transitions between phases.
 
 ---
+## 🔐 Environment Variables (`.env`)
 
+To keep your API keys and configuration secure, this project uses a `.env` file.  
+**Never commit your `.env` file to public repositories!**
+
+### Example `.env` file
+
+```properties
+GOOGLE_GENAI_USE_VERTEXAI=FALSE
+GOOGLE_API_KEY=your-google-api-key
+OPENAI_API_KEY=your-openai-api-key
+YOUTUBE_API_KEY=your-youtube-api-key
+```
+
+### Variable Descriptions
+
+- **GOOGLE_GENAI_USE_VERTEXAI**  
+  Set to `TRUE` to use Google Vertex AI, or `FALSE` to use the standard Google GenAI API.
+
+- **GOOGLE_API_KEY**  
+  Your Google API key for accessing Google GenAI or Vertex AI services.
+
+- **OPENAI_API_KEY**  
+  Your OpenAI API key for generating prompts or images using OpenAI models.
+
+- **YOUTUBE_API_KEY**  
+  Your YouTube Data API key for scraping thumbnails and channel data.
+
+### How to Set Up
+
+1. **Copy the example file:**  
+   If provided, copy `.env.example` to `.env`:
+   ```bash
+   cp youtube_thumbnail_agent/.env.example youtube_thumbnail_agent/.env
+   ```
+   Or create a new `.env` file in the `youtube_thumbnail_agent/` directory.
+
+2. **Fill in your API keys:**  
+   Replace the placeholder values with your actual API keys.
+
+3. **Keep it secret:**  
+   Add `.env` to your `.gitignore` to prevent accidental commits.
+
+### Why use a `.env` file?
+
+- Keeps sensitive information out of your codebase.
+- Makes it easy to change configuration without editing source code.
+- Supports different settings for development, testing, and production.
+
+---
+
+> **Tip:**  
+> If you need new API keys, visit the [Google Cloud Console](https://console.cloud.google.com/), [OpenAI dashboard](https://platform.openai.com/), or [Google Developers Console](https://console.developers.google.com/) for YouTube.
+
+---
 ## 🛠️ How It Works
 
 ### 1. **Channel Selection**
