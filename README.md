@@ -1,6 +1,6 @@
 # 🎨 YouTube Thumbnail Style Cloner
 
-![Sonny Boy Soundtrack](./sonnyboy.png)
+![WORKFLOW](./workflow.png)
 
 ---
 
