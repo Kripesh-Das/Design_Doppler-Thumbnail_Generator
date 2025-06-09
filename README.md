@@ -3,7 +3,7 @@
 ![WORKFLOW](./workflow.png)
 
 ---
-
+## NOTE : Use a Python 3.12.7 venv for this Project
 ## 🚀 Overview
 
 **YouTube Thumbnail Style Cloner** is an advanced AI-powered tool designed to analyze, replicate, and generate YouTube thumbnails in the style of any channel you choose. By orchestrating a series of specialized agents, this project enables creators to:
@@ -218,13 +218,6 @@ This project is licensed under the MIT License.
 
 ---
 
-## 🙏 Credits
-
-- AI Orchestration: [Google ADK](https://github.com/google/adk)
-- Thumbnail Inspiration: YouTube Creators
-- Cover Art: _Sonny Boy Soundtrack_ (for demo purposes)
-
----
 
 ## 💬 Contact
 
